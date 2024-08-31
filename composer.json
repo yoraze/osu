@@ -1,0 +1,20 @@
+{
+   "name": "yoraze/osu",
+   "description": "Simple utils to work with osu!",
+   "type": "project",
+   "homepage": "https://github.com/yoraze/osu",
+   "authors": [
+      {
+         "name": "yoraze"
+      }
+   ],
+   "require": {
+      "php": ">=8.0.0",
+      "php-64bit": "*"
+   },
+   "autoload": {
+      "psr-4": {
+         "osu\\": "src/"
+      }
+   }
+}

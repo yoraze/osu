@@ -6,8 +6,7 @@ namespace osu;
 
 abstract class OsuParser{
 
-	/** @var OsuBeatmap */
-	protected $osu;
+	protected OsuBeatmap $osu;
 
 	public function __construct(OsuBeatmap $osu){
 		$this->osu = $osu;
